@@ -19,11 +19,9 @@ class _loadingState extends State<loading> {
       'location': instance.location,
       'time': instance.time,
       'flag': instance.flag,
+      'isDaytime':instance.isDaytime,
     });
   }
-
-
-
   @override
   void initState() {
     super.initState();
